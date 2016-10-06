@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_draw"
+        android:icon="@drawable/ic_action_draw"
+        android:title="@string/action_draw"
+        app:showAsAction="ifRoom|collapseActionView"/>
+        <!--https://developer.android.com/training/appbar/action-views.html -->
+    <item
+        android:id="@+id/action_shade_map"
+        android:icon="@drawable/ic_action_shade_map"
+        android:title="@string/action_shade_map"
+        app:showAsAction="never |collapseActionView"/>
+    <item
+        android:id="@+id/action_plants"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/action_plants"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/action_resize"
+        android:icon="@drawable/ic_action_resize"
+        android:title="@string/action_resize"
+        app:showAsAction="never|collapseActionView"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_share"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+</menu>
